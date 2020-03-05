@@ -217,6 +217,9 @@ vendor.power.pasr.enabled=false
 # OnePlus
 vendor.product.manufacturer=OPD
 
+# Netflix
+ro.netflix.bsp_rev=Q875-32408-1
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
