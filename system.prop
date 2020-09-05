@@ -32,6 +32,11 @@ ro.launcher.blur.appLaunch=0
 # Camera
 camera.disable_zsl_mode=true
 persist.camera.privapp.list=com.oneplus.camera
+persist.camera.eis.enable=1
+persist.camera.is_mode=4
+persist.vendor.camera.oissr.debug=1
+vendor.debug.camera.eisv2enable=1
+vendor.debug.camera.eisv3enable=1
 
 # Charger
 ro.charger.disable_init_blank=true
