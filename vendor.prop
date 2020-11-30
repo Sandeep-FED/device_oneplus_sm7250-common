@@ -119,6 +119,12 @@ persist.vendor.camera.privapp.list=com.oneplus.camera,com.oem.autotest,com.onepl
 vendor.arcsoft.sn_isHardCopy=0
 vendor.camera.algo.jpeghwencode=1
 vendor.camera.aux.packagelist=com.oem.autotest,com.oneplus.factorymode,com.oneplus.camera,com.oneplus.healthcheck
+persist.camera.mct.debug=0
+persist.camera.iface.logs=0
+persist.camera.imglib.logs=0
+persist.camera.isp.debug=0
+persist.camera.sensor.debug=0
+
 
 # Crypto
 ro.crypto.allow_encrypt_override=true
