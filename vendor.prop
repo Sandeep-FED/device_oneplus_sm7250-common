@@ -261,6 +261,11 @@ sys.vendor.shutdown.waittime=500
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM7250
 
+# Transcoding related property.
+debug.media.transcoding.codec_max_operating_rate_720P=480
+debug.media.transcoding.codec_max_operating_rate_1080P=240
+debug.media.transcoding.codec_max_operating_rate_4k=120
+
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
