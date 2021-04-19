@@ -1,0 +1,12 @@
+allow untrusted_app zygote:unix_stream_socket getopt;
+allow untrusted_app vendor_xdsp_device:chr_file ioctl;
+allow untrusted_app app_data_file:file execute;
+allow untrusted_app proc_stat:file open;
+allow untrusted_app vendor_hal_camera_postproc_hwservice:hwservice_manager find;
+allow untrusted_app app_data_file:file execute;
+allow untrusted_app proc_pid_max:file read;
+
+allow untrusted_app proc_max_map_count:file { getattr open read };
+allow untrusted_app proc_version:file { getattr open read };
+allow untrusted_app proc_zoneinfo:file { getattr open read };
+allow untrusted_app vendor_file:file { execute getattr map open read };
