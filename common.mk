@@ -27,6 +27,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/oneplus/sm7250-common/sm7250-common-vendor.mk)
 $(call inherit-product, $(LOCAL_PATH)/interfaces.mk)
 
+# Inherit Oneplus Camera
+$(call inherit-product, vendor/oneplus/avicii-camera/config.mk)
+
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
