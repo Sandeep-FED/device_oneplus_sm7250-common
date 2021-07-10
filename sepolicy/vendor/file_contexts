@@ -92,5 +92,10 @@
 /sys/devices/virtual/misc/(msm_wma|msm_amrwb|msm_ape|msm_aac|msm_alac|msm_g711mlaw|msm_qcelp|msm_multi_aac|msm_g711alaw|msm_evrc|msm_mp3|msm_wmapro|msm_amrnb|msm_amrwbplus)/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
 /sys/devices/virtual/wakeup/wakeup[0-9]+(/.*)? u:object_r:sysfs_wakeup:s0
 
+# Live Display
+/vendor/bin/hw/android\.hardware\.lights-service\.avicii                u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.avicii        u:object_r:hal_lineage_livedisplay_qti_exec:s0
+/sys/class/drm/card0/card0-DSI-1/disp_param                             u:object_r:vendor_sysfs_graphics:s0
+
 # Vibrator
 /sys/devices/platform/soc/880000.i2c/i2c-5/5-005a/leds/vibrator/level               u:object_r:sysfs_vibrator:s0
