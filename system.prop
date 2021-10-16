@@ -45,6 +45,9 @@ vendor.debug.camera.eisv3enable=1
 # Charger
 ro.charger.enable_suspend=true
 
+# Dexopt
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=0
