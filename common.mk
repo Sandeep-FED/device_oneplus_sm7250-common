@@ -260,6 +260,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Doze
 PRODUCT_PACKAGES += \
     OnePlusDoze
