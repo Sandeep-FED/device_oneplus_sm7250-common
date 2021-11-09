@@ -427,7 +427,8 @@ PRODUCT_COPY_FILES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oneplus
+    vendor.lineage.touch@1.0-service.oneplus \
+    TouchGestures
 
 # Update engine
 PRODUCT_PACKAGES += \

@@ -110,4 +110,7 @@
     <string name="nr_mode_switcher_warning">Please set again after reboot/changed data sim card</string>
     <string name="service_not_ready">Service not ready, please try again</string>
     <string name="unavailable_sim_slot">Unable to get current mobile data slot, please try again</string>
+
+    <string name="touchscreen_gesture_settings_title">TouchScreen Gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
 </resources>
