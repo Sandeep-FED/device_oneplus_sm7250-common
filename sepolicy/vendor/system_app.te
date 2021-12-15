@@ -5,6 +5,8 @@ allow system_app sysfs_vibrator:file rw_file_perms;
 allow system_app sysfs_vibrator:dir r_dir_perms;
 allow system_app sysfs_leds:dir search;
 
+allow system_app proc_pagetypeinfo:file r_file_perms;
+
 # Battery Health
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { read };
