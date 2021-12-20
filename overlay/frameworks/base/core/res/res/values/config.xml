@@ -404,4 +404,7 @@
 
     <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
     <bool name="config_telephony5gNonStandalone">true</bool>
+
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
 </resources>
