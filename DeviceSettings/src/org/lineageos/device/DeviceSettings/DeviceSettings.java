@@ -51,7 +51,7 @@ public class DeviceSettings extends PreferenceFragment
 
     private static final String KEY_VIBSTRENGTH = "vib_strength";
 
-    private static final String FILE_LEVEL = "/sys/devices/platform/soc/a8c000.i2c/i2c-3/3-005a/leds/vibrator/level";
+    private static final String FILE_LEVEL = "/sys/devices/platform/soc/880000.i2c/i2c-5/5-005a/leds/vibrator/level";
     private static final long testVibrationPattern[] = {0,5};
     private static final String DEFAULT = "3";
 
