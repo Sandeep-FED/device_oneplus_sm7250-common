@@ -20,6 +20,7 @@ persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.bt.a2dp.hal.implementation=true
 ro.bluetooth.library_name=libbluetooth_qti.so
+persist.vendor.btstack.enable.twsplussho=true
 
 # Blur
 ro.surface_flinger.supports_background_blur=1
