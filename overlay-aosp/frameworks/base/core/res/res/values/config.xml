@@ -71,6 +71,9 @@
     <!-- Defines custom Vendor sensor for pocket detection. -->
     <string name="config_pocketJudgeVendorProximitySensorName">oneplus.sensor.infrared.proximity</string>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
+
     <!-- Display has physical cutout -->
     <bool name="config_physicalDisplayCutout">true</bool>
 
