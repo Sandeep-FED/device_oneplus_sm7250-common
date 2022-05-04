@@ -1,10 +1,10 @@
 # ART
-dalvik.vm.image-dex2oat-threads=8 
-dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 
-dalvik.vm.dex2oat-filter=quicken 
-dalvik.vm.dex2oat-threads=8 
-dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 
-dalvik.vm.boot-dex2oat-threads=8 
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7
+dalvik.vm.boot-dex2oat-threads=8
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
 
 # Async MTE on system_server
@@ -20,6 +20,13 @@ persist.vendor.btstack.enable.lpa=true
 persist.vendor.btstack.enable.twsplus=true
 persist.vendor.bt.a2dp.hal.implementation=true
 ro.bluetooth.library_name=libbluetooth_qti.so
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
 
 # Camera
 camera.disable_zsl_mode=true
