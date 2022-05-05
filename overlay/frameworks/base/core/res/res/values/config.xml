@@ -359,4 +359,8 @@
 
  <!-- Whether to force enable multi resolution configuration for camera -->
     <bool name="config_forceMultiResolution">true</bool>	    
+
+   <!-- Enable LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
 </resources>
