@@ -10,3 +10,10 @@ allow untrusted_app proc_max_map_count:file { getattr open read };
 allow untrusted_app proc_version:file { getattr open read };
 allow untrusted_app proc_zoneinfo:file { getattr open read };
 allow untrusted_app vendor_file:file { execute getattr map open read };
+
+# dontaudit
+dontaudit untrusted_app proc_zoneinfo: file { read };
+dontaudit untrusted_app system_lib_file:file { execmod };
+dontaudit untrusted_app proc_version:file { read };
+allow untrusted_app proc_net_tcp_udp:file { read };
+allow untrusted_app rootfs:dir { read };
