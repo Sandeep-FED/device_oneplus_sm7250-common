@@ -7,3 +7,9 @@ allow untrusted_app_29 vendor_sysfs_kgsl:file { getattr  open  read };
 allow untrusted_app_29 hal_camera_default:binder { call };
 allow untrusted_app_29 vendor_xdsp_device:chr_file { ioctl };
 allow untrusted_app_29 zygote:unix_stream_socket { getopt };
+
+dontaudit untrusted_app_29 cgroup:file read;
+allow untrusted_app_29 proc_qtaguid_stat:file { read open getattr };
+allow untrusted_app_29 proc_zoneinfo:file { read open getattr };
+dontaudit untrusted_app_29 proc:file read;
+allow untrusted_app_29 app_data_file:file { execute };
