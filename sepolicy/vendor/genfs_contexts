@@ -28,6 +28,7 @@ genfscon sysfs /module/qpnp_smb5/parameters/call_on                             
 genfscon sysfs /module/qpnp_smb5/parameters/video_call_on                                                              u:object_r:vendor_sysfs_video_call_on:s0
 genfscon sysfs /module/stmvl53l1                                                                                       u:object_r:sysfs_vl53l1:s0
 genfscon sysfs /project_info                                                                                           u:object_r:sysfs_project_info:s0
+genfscon proc  /sys/vm/rswappiness                                                                                                   u:object_r:proc_swaps:s0
 
 # sysfs (wakeup)
 genfscon sysfs /devices/platform/soc/soc:goodix_fp/wakeup u:object_r:sysfs_wakeup:s0
