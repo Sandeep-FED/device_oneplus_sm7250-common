@@ -378,4 +378,9 @@
     <!-- the number of the max cached processes in the system. -->
     <integer name="config_customizedMaxCachedProcesses">64</integer>
 
+    <string-array name="configs_base">
+	    <!-- ART heap compaction for cached apps  -->
+	    <item>activity_manager/use_compaction=true</item>
+    </string-array>
+
 </resources>
