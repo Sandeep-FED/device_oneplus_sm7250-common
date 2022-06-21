@@ -43,7 +43,7 @@ vendor.debug.camera.eisv2enable=1
 vendor.debug.camera.eisv3enable=1
 
 # Charger
-ro.charger.disable_init_blank=true
+ro.charger.enable_suspend=true
 
 # Display
 debug.gralloc.gfx_ubwc_disable=0
