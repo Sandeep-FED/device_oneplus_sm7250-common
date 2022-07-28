@@ -22,7 +22,7 @@
           manually by the user. Off by default, since the expected haptic feedback may not be
           available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
-  
+
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
@@ -363,7 +363,7 @@
     </integer-array>
 
  <!-- Whether to force enable multi resolution configuration for camera -->
-    <bool name="config_forceMultiResolution">true</bool>	    
+    <bool name="config_forceMultiResolution">true</bool>
 
    <!-- Enable LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
@@ -391,11 +391,13 @@
 	    <!-- ART heap compaction for cached apps  -->
 	    <item>activity_manager/use_compaction=true</item>
     </string-array>
-    
+
     <!-- Exempt cne from privacy (location) indicators -->
     <string name="config_systemAudioIntelligence" translatable="false">com.qualcomm.qti.cne</string>
 
     <!-- Slow brightness animation ramp rate in brightness units per second-->
     <integer translatable="false" name="config_brightness_ramp_rate_slow">60</integer>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
