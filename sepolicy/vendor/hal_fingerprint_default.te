@@ -1,0 +1,42 @@
+allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
+
+binder_call(hal_fingerprint_default, hal_display_default)
+binder_call(hal_fingerprint_default, vendor_hal_perf_default)
+
+binder_call(hal_fingerprint_default, hal_fingerprint_default)
+get_prop(hal_fingerprint_default, default_prop)
+
+allow hal_fingerprint_default hal_display_hwservice:hwservice_manager find;
+allow hal_fingerprint_default vendor_hal_perf_hwservice:hwservice_manager find;
+
+allow hal_fingerprint_default fingerprintd_device:chr_file rw_file_perms;
+allow hal_fingerprint_default mnt_vendor_file:dir create_dir_perms;
+allow hal_fingerprint_default mnt_vendor_file:file create_file_perms;
+
+allow hal_fingerprint_default oem_file:dir create_dir_perms;
+allow hal_fingerprint_default oem_file:file create_file_perms;
+
+allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
+allow hal_fingerprint_default vendor_qdsp_device:chr_file rw_file_perms;
+allow hal_fingerprint_default vendor_xdsp_device:chr_file rw_file_perms;
+
+#allow hal_fingerprint_default proc_touchpanel:dir search;
+#allow hal_fingerprint_default proc_touchpanel:file rw_file_perms;
+
+allow hal_fingerprint_default mnt_vendor_file:dir create_dir_perms;
+allow hal_fingerprint_default mnt_vendor_file:file create_file_perms;
+
+allow hal_fingerprint_default oem_file:dir create_dir_perms;
+allow hal_fingerprint_default oem_file:file create_file_perms;
+
+allow hal_fingerprint_default vendor_sysfs_battery_supply:dir search;
+allow hal_fingerprint_default vendor_sysfs_battery_supply:file r_file_perms;
+
+allow hal_fingerprint_default sysfs_aod:file rw_file_perms;
+allow hal_fingerprint_default sysfs:file rw_file_perms;
+allow hal_fingerprint_default sysfs_fod:file rw_file_perms;
+allow hal_fingerprint_default sysfs_color:file rw_file_perms;
+
+get_prop(hal_fingerprint_default, vendor_adsprpc_prop)
+get_prop(hal_fingerprint_default, vendor_default_prop)
+set_prop(hal_fingerprint_default, vendor_fingerprint_prop)
