@@ -29,6 +29,8 @@ allow hal_fingerprint_default mnt_vendor_file:file create_file_perms;
 allow hal_fingerprint_default oem_file:dir create_dir_perms;
 allow hal_fingerprint_default oem_file:file create_file_perms;
 
+allow hal_fingerprint_default proc:file rw_file_perms;
+
 allow hal_fingerprint_default vendor_sysfs_battery_supply:dir search;
 allow hal_fingerprint_default vendor_sysfs_battery_supply:file r_file_perms;
 
