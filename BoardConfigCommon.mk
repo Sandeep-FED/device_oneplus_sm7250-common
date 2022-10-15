@@ -55,6 +55,7 @@ TARGET_KERNEL_SOURCE := kernel/oneplus/$(TARGET_DEVICE)
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := proton
+KERNEL_TOOLCHAIN_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin/aarch64-linux-gnu-
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
