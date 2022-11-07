@@ -81,8 +81,9 @@ ro.vendor.product.manufacturer.db=OP_PHONE
 ro.vendor.product.device.db=OP_DEVICE
 
 # Perf
-ro.vendor.qti.core_ctl_max_cpu=4
+iop.enable_uxe=1
 ro.vendor.qti.core_ctl_min_cpu=2
+ro.vendor.qti.core_ctl_max_cpu=4
 
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
