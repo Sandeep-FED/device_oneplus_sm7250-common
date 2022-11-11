@@ -1,2 +1,3 @@
 # Audio
+ro.audio.monitorRotation=true
 ro.vendor.qti.va_odm.support=1
