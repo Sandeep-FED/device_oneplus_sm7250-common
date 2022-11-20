@@ -76,9 +76,6 @@ vendor.iop.enable_uxe=0
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
-# Netflix
-ro.netflix.bsp_rev=Q7250-19133-1
-
 # OnePlus
 ro.vendor.product.manufacturer.db=OP_PHONE
 ro.vendor.product.device.db=OP_DEVICE
