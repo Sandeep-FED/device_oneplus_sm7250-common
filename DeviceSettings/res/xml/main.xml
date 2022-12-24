@@ -17,7 +17,7 @@
     <PreferenceCategory
         android:key="graphics"
         android:title="@string/display_title">
-            
+
         <Preference
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
@@ -57,7 +57,7 @@
     <PreferenceCategory
         android:key="refresh"
         android:title="@string/refresh_title">
-        
+
         <Preference
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
@@ -94,7 +94,7 @@
             android:summary="@string/enable_dolby_summary"
             android:title="@string/enable_dolby_title"
             android:icon="@drawable/ic_dolby"
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:persistent="true" />
 
         <Preference
@@ -141,7 +141,7 @@
 
         <Preference
             android:icon="@drawable/ic_info_outline"
-            android:summary="@string/nr_mode_switcher_warning" 
+            android:summary="@string/nr_mode_switcher_warning"
             android:persistent="false" />
     </PreferenceCategory>
 
